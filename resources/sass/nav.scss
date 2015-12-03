@@ -34,6 +34,51 @@
 // 	display: none;
 // }
 
+/* Header bar ******************************/
+.top {
+  color: white;
+  background-color: $rgba-primary-4;
+  clear: both;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Logo  and slogan **************************************/
+
+.header-wrap {
+  text-align: center;
+  padding: 5px;
+  background: $rgba-primary-1;
+}
+
+.header-wrap h2 {
+  position: relative;
+}
+
+/* for flexbox work */
+@import "compass/css3/flexbox";
+
+.flex-row {
+  @include display-flex;
+  @include flex-direction(row);
+  @include align-content(stretch);
+  @include justify-content(center);
+  padding: 5px;
+}
+
+.flex-item {
+  padding: 2px;
+}
+.flex-item#logo-text {
+  @include align-self(baseline);
+}
+
+.logo {
+  margin-left:2%;
+  height:40px;
+  vertical-align:middle;
+} 
+
 /* menu bar and ul items *******************************/
 
 #menubar { 

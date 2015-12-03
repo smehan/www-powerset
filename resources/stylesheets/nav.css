@@ -1,18 +1,21 @@
 /*
-Error: Undefined variable: "$rgba-primary-3".
-        on line 97 of /Users/shawnmehan/Code/code_html/powersettech.com/resources/sass/nav.scss
+Error: Undefined variable: "$rgba-primary-4".
+        on line 40 of /Users/shawnmehan/Code/code_html/powersettech.com/resources/sass/nav.scss
 
-92: 
-93: 
-94: /* top menu **********************************************\/
-95: .menu {
-96: 	color: white;
-97: 	background-color: $rgba-primary-3;
-98: 	text-align: center;
-99: }
+35: // }
+36: 
+37: /* Header bar ******************************\/
+38: .top {
+39:   color: white;
+40:   background-color: $rgba-primary-4;
+41:   clear: both;
+42:   text-align: center;
+43:   padding: 5px;
+44: }
+45: 
 
 Backtrace:
-/Users/shawnmehan/Code/code_html/powersettech.com/resources/sass/nav.scss:97
+/Users/shawnmehan/Code/code_html/powersettech.com/resources/sass/nav.scss:40
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -67,4 +70,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$rgba-primary-3\".\A         on line 97 of /Users/shawnmehan/Code/code_html/powersettech.com/resources/sass/nav.scss\A \A 92: \A 93: \A 94: /* top menu **********************************************/\A 95: .menu {\A 96: 	color: white;\A 97: 	background-color: $rgba-primary-3;\A 98: 	text-align: center;\A 99: }"; }
+  content: "Error: Undefined variable: \"$rgba-primary-4\".\A         on line 40 of /Users/shawnmehan/Code/code_html/powersettech.com/resources/sass/nav.scss\A \A 35: // }\A 36: \A 37: /* Header bar ******************************/\A 38: .top {\A 39:   color: white;\A 40:   background-color: $rgba-primary-4;\A 41:   clear: both;\A 42:   text-align: center;\A 43:   padding: 5px;\A 44: }\A 45: "; }

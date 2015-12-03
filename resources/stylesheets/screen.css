@@ -98,21 +98,6 @@ body {
 }
 
 /* line 23, ../sass/main.scss */
-.top {
-  color: white;
-  background-color: #032137;
-  clear: both;
-  text-align: center;
-  padding: 5px;
-}
-
-/* line 31, ../sass/main.scss */
-.header-wrap {
-  text-align: center;
-  padding: 5px;
-}
-
-/* line 36, ../sass/main.scss */
 .footer {
   background-color: black;
   color: #669ec5;
@@ -122,7 +107,7 @@ body {
   padding: 5px;
 }
 
-/* line 45, ../sass/main.scss */
+/* line 32, ../sass/main.scss */
 p {
   padding: 0 0 10px 5px;
   color: #FFF;
@@ -130,12 +115,12 @@ p {
   font-size: 100%;
 }
 
-/* line 52, ../sass/main.scss */
+/* line 39, ../sass/main.scss */
 img {
   border: 0;
 }
 
-/* line 56, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
 h1, h2, h3, h4, h5, h6 {
   font: normal 175% Arial, Helvetica, sans-serif;
   color: #FFF;
@@ -144,17 +129,17 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 10px 0;
 }
 
-/* line 64, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 h2 {
   font: normal 165% Arial, Helvetica, sans-serif;
 }
 
-/* line 68, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 h3 {
   font: normal 130% Arial, Helvetica, sans-serif;
 }
 
-/* line 72, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 h4, h5, h6 {
   margin: 0;
   padding: 0 0 0px 0;
@@ -162,7 +147,7 @@ h4, h5, h6 {
   line-height: 1.5em;
 }
 
-/* line 79, ../sass/main.scss */
+/* line 66, ../sass/main.scss */
 h5, h6 {
   font: normal 95% Arial, Helvetica, sans-serif;
   color: #888;
@@ -181,8 +166,63 @@ h5, h6 {
   clear: both;
 }
 
+/* Header bar ******************************/
+/* line 38, ../sass/nav.scss */
+.top {
+  color: white;
+  background-color: #032137;
+  clear: both;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Logo  and slogan **************************************/
+/* line 48, ../sass/nav.scss */
+.header-wrap {
+  text-align: center;
+  padding: 5px;
+  background: #97a7b2;
+}
+
+/* line 54, ../sass/nav.scss */
+.header-wrap h2 {
+  position: relative;
+}
+
+/* for flexbox work */
+/* line 61, ../sass/nav.scss */
+.flex-row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-content: stretch;
+  align-content: stretch;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+/* line 69, ../sass/nav.scss */
+.flex-item {
+  padding: 2px;
+}
+
+/* line 72, ../sass/nav.scss */
+.flex-item#logo-text {
+  -webkit-align-self: baseline;
+  align-self: baseline;
+}
+
+/* line 76, ../sass/nav.scss */
+.logo {
+  margin-left: 2%;
+  height: 40px;
+  vertical-align: middle;
+}
+
 /* menu bar and ul items *******************************/
-/* line 39, ../sass/nav.scss */
+/* line 84, ../sass/nav.scss */
 #menubar {
   width: 960px;
   height: 50px;
@@ -200,13 +240,13 @@ h5, h6 {
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
 }
 
-/* line 56, ../sass/nav.scss */
+/* line 101, ../sass/nav.scss */
 ul#menu {
   margin: 0;
   margin: 0 0 0 20px;
 }
 
-/* line 61, ../sass/nav.scss */
+/* line 106, ../sass/nav.scss */
 ul#menu li {
   padding: 0 0 0 0px;
   list-style: none;
@@ -215,7 +255,7 @@ ul#menu li {
   background: transparent;
 }
 
-/* line 69, ../sass/nav.scss */
+/* line 114, ../sass/nav.scss */
 ul#menu li a {
   float: left;
   font: bold 120% Arial, Helvetica, sans-serif;
@@ -228,14 +268,14 @@ ul#menu li a {
   background: transparent;
 }
 
-/* line 81, ../sass/nav.scss */
+/* line 126, ../sass/nav.scss */
 ul#menu li.current a {
   color: #FFF;
   background: #323232;
   text-shadow: none;
 }
 
-/* line 87, ../sass/nav.scss */
+/* line 132, ../sass/nav.scss */
 ul#menu li:hover a {
   color: #FFF;
   background: #323232;
@@ -243,7 +283,7 @@ ul#menu li:hover a {
 }
 
 /* top menu **********************************************/
-/* line 95, ../sass/nav.scss */
+/* line 140, ../sass/nav.scss */
 .menu {
   color: white;
   background-color: #123752;
