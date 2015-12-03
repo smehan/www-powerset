@@ -1,6 +1,16 @@
+html { 
+	height: 100%;
+}
+
+* { 
+	margin: 0;
+  	padding: 0;
+}
+
 body {
 	color: black;
 	background-color: $rgba-primary-2;
+	font: normal 85% Arial, Helvetica, sans-serif;
 	font-family: sans-serif;
 }
 
@@ -32,7 +42,7 @@ body {
 }
 
 p { 
-	padding: 0 0 10px 0;
+	padding: 0 0 10px 5px;
   	color: #FFF;
   	line-height: 1.7em;
   	font-size: 100%;
@@ -71,12 +81,3 @@ h5, h6 {
   	padding-bottom: 15px;
 }
 
-
-
-/*.wrapper {
-	overflow: hidden;
-}
-
-.sliding-header {
-	background-color: black;
-}*/
