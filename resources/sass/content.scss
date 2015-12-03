@@ -1,0 +1,122 @@
+#header
+{ width: 960px;
+  height: 120px;
+  background: transparent;}
+
+#banner
+{ width: 960px;
+  position: relative;
+  height: 50px;
+  padding: 15px 0 0 0;
+  background: transparent;}
+
+.site_content { 
+	border: 1px solid red;
+	width: 940px;
+  	padding-left: 20px;
+  	overflow: hidden;
+  	margin: 0 auto;
+  	// background: #323232;
+  	background: $rgba-primary-4;
+  	border-radius: 0px 0px 15px 15px;
+  	-moz-border-radius: 0px 0px 15px 15px;
+  	-webkit-border: 0px 0px 15px 15px;
+} 
+
+.sidebar_container { 
+	border: 1px solid red;
+	float: left;
+  	margin: 10px 20px 0 0;
+  	width: 215px;
+  	padding: 0;
+  }
+
+.sidebar { 
+ 	float: left;
+  	width: 250px;
+  	padding: 0;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+}
+
+.sidebar_item { 
+	font: normal 100% Arial, Helvetica, sans-serif;
+  	width: 215px;
+}
+
+.sidebar h2 { 
+	padding: 5px 0 0 10px;
+  	font: normal 140% Arial, Helvetica, sans-serif;
+  	height: 30px;
+  	text-shadow: 0px -1px 0px #000;
+  	color: #fff;
+  	background: #0043A8;
+  	background: -moz-linear-gradient(#43A9FF, #0043A8);
+  	background: -o-linear-gradient(#43A9FF, #0043A8);
+  	background: -webkit-linear-gradient(#43A9FF, #0043A8);
+  	border-radius: 15px 15px 15px 15px;
+  	-moz-border-radius: 15px 15px 15px 15px;
+  	-webkit-border: 15px 15px 15px 15px;
+  	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}  
+
+.content {
+  	border: 1px solid red;
+  	width: 680px;
+  	margin-bottom: 20px;
+  	float: left;
+  }
+
+.content_item { 
+	border: 1px solid yellow;
+	width: 680px;
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+}
+
+  /********************new**********************/
+
+
+.content_image
+{ float: left; 
+  width: 150px;
+  height: 150px;
+  margin: 0 20px 10px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;}
+  
+.content_container
+{ width: 320px;
+  padding: 5px;
+  margin-right: 10px;
+  float: left;}
+  
+#content_bottom
+ { width: 960px;
+  height: 160px;
+  text-align: center;} 
+  
+#content_bottom p
+ { color: #000;
+  text-shadow: 1px 1px #FFF; }  
+
+#content_bottom h4
+{ color: #000;
+  text-shadow: none;}
+  
+.content_bottom_container_box
+{ width: 295px;
+  padding: 5px;
+  text-align: center;
+  margin: 20px 0 10px 10px;
+  float: left;}
+
+.content_bottom_container_boxl
+{ width: 295px;
+  padding: 5px;
+  text-align: center;
+  margin: 20px 0 10px 10px;
+  float: left;}
