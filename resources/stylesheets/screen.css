@@ -241,16 +241,8 @@ ul#menu li:hover a {
   text-shadow: none;
 }
 
-/* subnav menu _____________________ */
-/* line 96, ../sass/nav.scss */
-.subnav {
-  border-bottom: 1px solid #F06D06;
-  /* TODO change me to something more subtle */
-  margin-bottom: 30px;
-}
-
 /* top menu **********************************************/
-/* line 102, ../sass/nav.scss */
+/* line 95, ../sass/nav.scss */
 .menu {
   color: white;
   background-color: #123752;
