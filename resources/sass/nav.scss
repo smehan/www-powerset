@@ -1,0 +1,114 @@
+/* Primary menu _____________________ */
+
+.navigation {
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.navigation:after {
+	clear: both;
+}
+
+// .navigation ul {
+// 	list-style: none;
+// 	float: right;
+// 	margin: 0;
+// }
+
+// .navigation li {
+// 	float: left;
+// }
+
+// .navigation a {
+// 	display: block;
+// 	padding: 13px 20px;
+// 	color: #777;
+// 	text-transform: uppercase;
+// }
+
+// .navigation .current-menu-item a {
+// 	color: #000;
+// }
+
+// .navigation li ul {
+// 	display: none;
+// }
+
+/* secondary menu _____________________ */
+
+.subnav {
+	border-bottom: 1px solid #F06D06;
+	margin-bottom: 30px;
+}
+
+// .subnav ul {
+// 	float: left;
+// 	margin: 0;
+// }
+
+/* top menu **********************************************/
+.menu {
+	background-color: white;
+}
+
+/* Universal non-mobile dropdown experience _____________________ */
+
+// .navigation.dropdown ul ul {
+// 	background: white;
+// 	padding: 0;
+// 	border: 1px solid #C4C4C4;
+// }
+
+// .navigation.dropdown li a .sf-sub-indicator {
+// 	display: block;
+// 	text-indent: -9999px;
+// 	overflow: hidden;
+// 	position: absolute;
+// }
+    
+// .navigation.dropdown li li {
+// 	border: none;
+// 	float: none;
+// 	position: relative;
+// }
+
+// .navigation.dropdown li li a {
+// 	width: 158px; 
+// 	font-size: 14px;
+// 	margin: 0;
+// 	padding: 10px 10px;
+// 	text-transform: none;
+// 	position: relative;
+// 	display: block;
+// }
+    
+// .navigation.dropdown li ul {
+// 	z-index: 9999;
+// 	position: absolute;
+// 	left: -999em;
+// 	height: auto;
+// 	width: 180px;
+// 	padding: 0;
+// }
+
+// .navigation.dropdown li li a:hover {
+// 	color: white;
+// 	background: #3a6ff3;
+// }
+
+// .navigation.dropdown li ul a { 
+// 	width: 160px;
+// }
+
+// .navigation.dropdown li:hover ul ul, .navigation.dropdown li:hover ul ul ul, .navigation.dropdown li.sfHover ul ul, .navigation.dropdown li.sfHover ul ul ul{
+// 	left: -999em;
+// }
+
+// .navigation.dropdown li:hover ul, .navigation.dropdown li li:hover ul, .navigation.dropdown li li li:hover ul, .navigation.dropdown li.sfHover ul, .navigation.dropdown li li.sfHover ul, .navigation.dropdown li li li.sfHover ul {
+// 	left: auto;
+// }
+
+// .navigation.dropdown ul ul ul {
+// 	margin: 0 0 0 180px;
+// 	top: -1px;
+// }

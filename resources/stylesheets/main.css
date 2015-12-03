@@ -1,0 +1,36 @@
+/* Colors */
+/* As hex codes */
+/* Main Primary color */
+/* As RGBa codes */
+/* line 19, ../sass/main.scss */
+body {
+  color: black;
+  background-color: #669ec5;
+  font-family: sans-serif;
+}
+
+/* line 25, ../sass/main.scss */
+.top {
+  color: white;
+  background-color: #032137;
+  clear: both;
+  text-align: center;
+  padding: 5px;
+}
+
+/* line 33, ../sass/main.scss */
+.footer {
+  background-color: black;
+  color: #669ec5;
+  clear: both;
+  text-align: center;
+  padding: 5px;
+}
+
+/*.wrapper {
+	overflow: hidden;
+}
+
+.sliding-header {
+	background-color: black;
+}*/

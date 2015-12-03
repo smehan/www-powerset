@@ -1,0 +1,31 @@
+.color-primary-0 { color: #29516D }/* Main Primary color */
+.color-primary-1 { color: #97A7B2 }
+.color-primary-2 { color: #669EC5 }
+.color-primary-3 { color: #123752 }
+.color-primary-4 { color: #032137 }
+
+
+
+/* As RGBa codes */
+
+.rgba-primary-0 { color: rgba( 41, 81,109,1) }/* Main Primary color */
+.rgba-primary-1 { color: rgba(151,167,178,1) }
+$rgba-primary-1: rgba(151,167,178,1);
+.rgba-primary-2 { color: rgba(102,158,197,1) }
+$rgba-primary-2: rgba(102,158,197,1);
+.rgba-primary-3 { color: rgba( 18, 55, 82,1) }
+.rgba-primary-4 { color: rgba(  3, 33, 55,1) }
+
+body {
+	color: black;
+	background-color: rgba-primary-2;
+	font-family: sans-serif;
+}
+
+footer {
+    background-color:black;
+    color: rgba-primary-2;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
