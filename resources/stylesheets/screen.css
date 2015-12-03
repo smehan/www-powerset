@@ -117,11 +117,12 @@ body {
   background-color: black;
   color: #669ec5;
   clear: both;
+  font: normal 75% Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 5px;
 }
 
-/* line 44, ../sass/main.scss */
+/* line 45, ../sass/main.scss */
 p {
   padding: 0 0 10px 5px;
   color: #FFF;
@@ -129,12 +130,12 @@ p {
   font-size: 100%;
 }
 
-/* line 51, ../sass/main.scss */
+/* line 52, ../sass/main.scss */
 img {
   border: 0;
 }
 
-/* line 55, ../sass/main.scss */
+/* line 56, ../sass/main.scss */
 h1, h2, h3, h4, h5, h6 {
   font: normal 175% Arial, Helvetica, sans-serif;
   color: #FFF;
@@ -143,17 +144,17 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 10px 0;
 }
 
-/* line 63, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 h2 {
   font: normal 165% Arial, Helvetica, sans-serif;
 }
 
-/* line 67, ../sass/main.scss */
+/* line 68, ../sass/main.scss */
 h3 {
   font: normal 130% Arial, Helvetica, sans-serif;
 }
 
-/* line 71, ../sass/main.scss */
+/* line 72, ../sass/main.scss */
 h4, h5, h6 {
   margin: 0;
   padding: 0 0 0px 0;
@@ -161,7 +162,7 @@ h4, h5, h6 {
   line-height: 1.5em;
 }
 
-/* line 78, ../sass/main.scss */
+/* line 79, ../sass/main.scss */
 h5, h6 {
   font: normal 95% Arial, Helvetica, sans-serif;
   color: #888;
