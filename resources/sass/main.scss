@@ -1,10 +1,14 @@
-
-
 body {
 	color: black;
 	background-color: $rgba-primary-2;
 	font-family: sans-serif;
 }
+
+.main { 
+	margin-left: auto; 
+  	margin-right: auto;
+  	background: transparent;
+ }
 
 .top {
 	color: white;
@@ -26,6 +30,48 @@ body {
     text-align: center;
     padding: 5px; 
 }
+
+p { 
+	padding: 0 0 10px 0;
+  	color: #FFF;
+  	line-height: 1.7em;
+  	font-size: 100%;
+ }
+
+img { 
+	border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	font: normal 175% Arial, Helvetica, sans-serif;
+  	color: #FFF;
+  	text-shadow: 1px 1px #1D1D1D;
+  	letter-spacing: -1px;
+  	margin: 0 0 10px 0;
+}
+
+h2 { 
+	font: normal 165% Arial, Helvetica, sans-serif;
+}
+
+h3 { 
+	font: normal 130% Arial, Helvetica, sans-serif;
+}
+
+h4, h5, h6 { 
+	margin: 0;
+  	padding: 0 0 0px 0;
+  	font: normal 150% Arial, Helvetica, sans-serif;
+  	line-height: 1.5em;
+}
+
+h5, h6 { 
+	font: normal 95% Arial, Helvetica, sans-serif;
+  	color: #888;
+  	padding-bottom: 15px;
+}
+
+
 
 /*.wrapper {
 	overflow: hidden;

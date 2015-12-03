@@ -71,14 +71,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* As hex codes */
 /* Main Primary color */
 /* As RGBa codes */
-/* line 3, ../sass/main.scss */
+/* line 1, ../sass/main.scss */
 body {
   color: black;
   background-color: #669ec5;
   font-family: sans-serif;
 }
 
-/* line 9, ../sass/main.scss */
+/* line 7, ../sass/main.scss */
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+
+/* line 13, ../sass/main.scss */
 .top {
   color: white;
   background-color: #032137;
@@ -87,19 +94,66 @@ body {
   padding: 5px;
 }
 
-/* line 17, ../sass/main.scss */
+/* line 21, ../sass/main.scss */
 .header-wrap {
   text-align: center;
   padding: 5px;
 }
 
-/* line 22, ../sass/main.scss */
+/* line 26, ../sass/main.scss */
 .footer {
   background-color: black;
   color: #669ec5;
   clear: both;
   text-align: center;
   padding: 5px;
+}
+
+/* line 34, ../sass/main.scss */
+p {
+  padding: 0 0 10px 0;
+  color: #FFF;
+  line-height: 1.7em;
+  font-size: 100%;
+}
+
+/* line 41, ../sass/main.scss */
+img {
+  border: 0;
+}
+
+/* line 45, ../sass/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  font: normal 175% Arial, Helvetica, sans-serif;
+  color: #FFF;
+  text-shadow: 1px 1px #1D1D1D;
+  letter-spacing: -1px;
+  margin: 0 0 10px 0;
+}
+
+/* line 53, ../sass/main.scss */
+h2 {
+  font: normal 165% Arial, Helvetica, sans-serif;
+}
+
+/* line 57, ../sass/main.scss */
+h3 {
+  font: normal 130% Arial, Helvetica, sans-serif;
+}
+
+/* line 61, ../sass/main.scss */
+h4, h5, h6 {
+  margin: 0;
+  padding: 0 0 0px 0;
+  font: normal 150% Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+}
+
+/* line 68, ../sass/main.scss */
+h5, h6 {
+  font: normal 95% Arial, Helvetica, sans-serif;
+  color: #888;
+  padding-bottom: 15px;
 }
 
 /*.wrapper {
@@ -196,6 +250,134 @@ ul#menu li:hover a {
   color: white;
   background-color: #123752;
   text-align: center;
+}
+
+/* line 3, ../sass/content.scss */
+.site_content {
+  border: 1px solid red;
+  width: 940px;
+  padding-left: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+  background: #323232;
+  border-radius: 0px 0px 15px 15px;
+  -moz-border-radius: 0px 0px 15px 15px;
+  -webkit-border: 0px 0px 15px 15px;
+}
+
+/* line 15, ../sass/content.scss */
+.sidebar_container {
+  border: 1px solid red;
+  float: left;
+  margin: 10px 20px 0 0;
+  width: 215px;
+  padding: 0;
+}
+
+/* line 23, ../sass/content.scss */
+.content {
+  border: 1px solid red;
+  width: 300px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+/********************new**********************/
+/* line 34, ../sass/content.scss */
+.sidebar {
+  float: left;
+  width: 250px;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 41, ../sass/content.scss */
+.sidebar_item {
+  font: normal 100% Arial, Helvetica, sans-serif;
+  width: 215px;
+}
+
+/* line 45, ../sass/content.scss */
+.sidebar h2 {
+  padding: 5px 0 0 10px;
+  font: normal 140% Arial, Helvetica, sans-serif;
+  height: 30px;
+  text-shadow: 0px -1px 0px #000;
+  color: #fff;
+  background: #0043A8;
+  background: -moz-linear-gradient(#43A9FF, #0043A8);
+  background: -o-linear-gradient(#43A9FF, #0043A8);
+  background: -webkit-linear-gradient(#43A9FF, #0043A8);
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border: 15px 15px 15px 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+
+/* line 63, ../sass/content.scss */
+.content_item {
+  width: 680px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 68, ../sass/content.scss */
+.content_image {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 0 20px 10px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+}
+
+/* line 77, ../sass/content.scss */
+.content_container {
+  width: 320px;
+  padding: 5px;
+  margin-right: 10px;
+  float: left;
+}
+
+/* line 83, ../sass/content.scss */
+#content_bottom {
+  width: 960px;
+  height: 160px;
+  text-align: center;
+}
+
+/* line 88, ../sass/content.scss */
+#content_bottom p {
+  color: #000;
+  text-shadow: 1px 1px #FFF;
+}
+
+/* line 92, ../sass/content.scss */
+#content_bottom h4 {
+  color: #000;
+  text-shadow: none;
+}
+
+/* line 96, ../sass/content.scss */
+.content_bottom_container_box {
+  width: 295px;
+  padding: 5px;
+  text-align: center;
+  margin: 20px 0 10px 10px;
+  float: left;
+}
+
+/* line 103, ../sass/content.scss */
+.content_bottom_container_boxl {
+  width: 295px;
+  padding: 5px;
+  text-align: center;
+  margin: 20px 0 10px 10px;
+  float: left;
 }
 
 /* compass sticky-footer */
