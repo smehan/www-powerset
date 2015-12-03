@@ -1,20 +1,4 @@
-/* Colors */
 
-/* As hex codes */
-
-$color-primary-0: #29516D;/* Main Primary color */
-$color-primary-1: #97A7B2;
-$color-primary-2: #669EC5;
-$color-primary-3: #123752;
-$color-primary-4: #032137;
-
-/* As RGBa codes */
-
-$rgba-primary-0: rgba( 41, 81,109,1);
-$rgba-primary-1: rgba(151,167,178,1);
-$rgba-primary-2: rgba(102,158,197,1);
-$rgba-primary-3: rgba(18, 55, 82,1);
-$rgba-primary-4: rgba(3, 33, 55,1);
 
 body {
 	color: black;
@@ -26,6 +10,11 @@ body {
 	color: white;
 	background-color: $rgba-primary-4;
 	clear: both;
+	text-align: center;
+	padding: 5px;
+}
+
+.header-wrap {
 	text-align: center;
 	padding: 5px;
 }

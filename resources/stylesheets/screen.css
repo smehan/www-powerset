@@ -71,14 +71,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* As hex codes */
 /* Main Primary color */
 /* As RGBa codes */
-/* line 19, ../sass/main.scss */
+/* line 3, ../sass/main.scss */
 body {
   color: black;
   background-color: #669ec5;
   font-family: sans-serif;
 }
 
-/* line 25, ../sass/main.scss */
+/* line 9, ../sass/main.scss */
 .top {
   color: white;
   background-color: #032137;
@@ -87,7 +87,13 @@ body {
   padding: 5px;
 }
 
-/* line 33, ../sass/main.scss */
+/* line 17, ../sass/main.scss */
+.header-wrap {
+  text-align: center;
+  padding: 5px;
+}
+
+/* line 22, ../sass/main.scss */
 .footer {
   background-color: black;
   color: #669ec5;
@@ -115,20 +121,83 @@ body {
   clear: both;
 }
 
-/* secondary menu _____________________ */
+/* menu bar and ul items *******************************/
 /* line 39, ../sass/nav.scss */
+#menubar {
+  width: 960px;
+  height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  background: #0043A8;
+  background: -moz-linear-gradient(#43A9FF, #0043A8);
+  background: -o-linear-gradient(#43A9FF, #0043A8);
+  background: -webkit-linear-gradient(#43A9FF, #0043A8);
+  border-radius: 15px 15px 0px 0px;
+  -moz-border-radius: 15px 15px 0px 0px;
+  -webkit-border: 15px 15px 0px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+
+/* line 56, ../sass/nav.scss */
+ul#menu {
+  margin: 0;
+  margin: 0 0 0 20px;
+}
+
+/* line 61, ../sass/nav.scss */
+ul#menu li {
+  padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  background: transparent;
+}
+
+/* line 69, ../sass/nav.scss */
+ul#menu li a {
+  float: left;
+  font: bold 120% Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  height: 24px;
+  text-shadow: 0px -1px 0px #000;
+  padding: 16px 20px 10px 20px;
+  background: transparent;
+}
+
+/* line 81, ../sass/nav.scss */
+ul#menu li.current a {
+  color: #FFF;
+  background: #323232;
+  text-shadow: none;
+}
+
+/* line 87, ../sass/nav.scss */
+ul#menu li:hover a {
+  color: #FFF;
+  background: #323232;
+  text-shadow: none;
+}
+
+/* subnav menu _____________________ */
+/* line 96, ../sass/nav.scss */
 .subnav {
   border-bottom: 1px solid #F06D06;
+  /* TODO change me to something more subtle */
   margin-bottom: 30px;
 }
 
 /* top menu **********************************************/
-/* line 50, ../sass/nav.scss */
+/* line 102, ../sass/nav.scss */
 .menu {
-  background-color: white;
+  color: white;
+  background-color: #123752;
+  text-align: center;
 }
 
-/* Universal non-mobile dropdown experience _____________________ */
 /* compass sticky-footer */
 /* line 10, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
