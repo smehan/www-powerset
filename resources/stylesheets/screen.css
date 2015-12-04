@@ -109,7 +109,7 @@ body {
 
 /* line 32, ../sass/main.scss */
 p {
-  padding: 0 0 10px 5px;
+  padding: 5px 5px 10px 5px;
   color: #FFF;
   line-height: 1.7em;
   font-size: 100%;
@@ -308,7 +308,6 @@ ul#menu li:hover a {
 
 /* line 13, ../sass/content.scss */
 .site_content {
-  border: 1px solid red;
   width: 940px;
   padding-left: 20px;
   overflow: hidden;
@@ -319,16 +318,15 @@ ul#menu li:hover a {
   -webkit-border: 0px 0px 15px 15px;
 }
 
-/* line 26, ../sass/content.scss */
+/* line 25, ../sass/content.scss */
 .sidebar_container {
-  border: 1px solid red;
   float: left;
   margin: 10px 20px 0 0;
   width: 215px;
   padding: 0;
 }
 
-/* line 34, ../sass/content.scss */
+/* line 32, ../sass/content.scss */
 .sidebar {
   float: left;
   width: 250px;
@@ -337,13 +335,13 @@ ul#menu li:hover a {
   margin-bottom: 10px;
 }
 
-/* line 42, ../sass/content.scss */
+/* line 40, ../sass/content.scss */
 .sidebar_item {
   font: normal 100% Arial, Helvetica, sans-serif;
   width: 215px;
 }
 
-/* line 47, ../sass/content.scss */
+/* line 45, ../sass/content.scss */
 .sidebar h2 {
   padding: 5px 0 0 10px;
   font: normal 140% Arial, Helvetica, sans-serif;
@@ -362,35 +360,44 @@ ul#menu li:hover a {
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
 }
 
-/* line 65, ../sass/content.scss */
+/* line 63, ../sass/content.scss */
 .content {
-  border: 1px solid red;
   width: 680px;
   margin-bottom: 20px;
   float: left;
 }
 
-/* line 72, ../sass/content.scss */
+/* line 69, ../sass/content.scss */
 .content_item {
-  border: 1px solid yellow;
   width: 680px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/********************new**********************/
-/* line 82, ../sass/content.scss */
-.content_image {
+/* line 75, ../sass/content.scss */
+.content-image {
   float: left;
   width: 150px;
   height: 150px;
-  margin: 0 20px 10px 0;
+  margin: 0px 20px 10px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
 }
 
-/* line 91, ../sass/content.scss */
+/* line 85, ../sass/content.scss */
+#img-woman {
+  height: 250px;
+}
+
+/* line 90, ../sass/content.scss */
+.f-image {
+  text-align: left;
+  border: 1px solid white;
+}
+
+/********************new**********************/
+/* line 101, ../sass/content.scss */
 .content_container {
   width: 320px;
   padding: 5px;
@@ -398,26 +405,26 @@ ul#menu li:hover a {
   float: left;
 }
 
-/* line 97, ../sass/content.scss */
+/* line 107, ../sass/content.scss */
 #content_bottom {
   width: 960px;
   height: 160px;
   text-align: center;
 }
 
-/* line 102, ../sass/content.scss */
+/* line 112, ../sass/content.scss */
 #content_bottom p {
   color: #000;
   text-shadow: 1px 1px #FFF;
 }
 
-/* line 106, ../sass/content.scss */
+/* line 116, ../sass/content.scss */
 #content_bottom h4 {
   color: #000;
   text-shadow: none;
 }
 
-/* line 110, ../sass/content.scss */
+/* line 120, ../sass/content.scss */
 .content_bottom_container_box {
   width: 295px;
   padding: 5px;
@@ -426,7 +433,7 @@ ul#menu li:hover a {
   float: left;
 }
 
-/* line 117, ../sass/content.scss */
+/* line 127, ../sass/content.scss */
 .content_bottom_container_boxl {
   width: 295px;
   padding: 5px;

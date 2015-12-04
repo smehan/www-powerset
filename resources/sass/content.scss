@@ -11,7 +11,6 @@
   background: transparent;}
 
 .site_content { 
-	border: 1px solid red;
 	width: 940px;
   	padding-left: 20px;
   	overflow: hidden;
@@ -24,7 +23,6 @@
 } 
 
 .sidebar_container { 
-	border: 1px solid red;
 	float: left;
   	margin: 10px 20px 0 0;
   	width: 215px;
@@ -63,30 +61,42 @@
 }  
 
 .content {
-  	border: 1px solid red;
   	width: 680px;
   	margin-bottom: 20px;
   	float: left;
   }
 
 .content_item { 
-	border: 1px solid yellow;
 	width: 680px;
   	margin-top: 20px;
   	margin-bottom: 20px;
 }
 
+.content-image { 
+	float: left; 
+  	width: 150px;
+  	height: 150px;
+  	margin: 0px 20px 10px 0;
+  	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+  	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+  	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+  }
+
+  #img-woman {
+  	height: 250px;
+  }
+
+
+.f-image {
+  	//position: relative;
+   	// top: 190px; 
+   	// right: 10px; /* NOT left: 190px; */ 
+   	text-align:left;
+   	border: 1px solid white;
+  }
+
   /********************new**********************/
 
-
-.content_image
-{ float: left; 
-  width: 150px;
-  height: 150px;
-  margin: 0 20px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;}
   
 .content_container
 { width: 320px;
