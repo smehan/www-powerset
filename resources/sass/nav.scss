@@ -80,6 +80,11 @@
 } 
 
 /* menu bar and ul items *******************************/
+.menu {
+  color: white;
+  background-color: $rgba-primary-3;
+  text-align: center;
+}
 
 #menubar { 
 	width: 960px;
@@ -133,12 +138,4 @@ ul#menu li:hover a {
   	color: #FFF;
   	background: #323232;
   	text-shadow: none;
-}
-
-
-/* top menu **********************************************/
-.menu {
-	color: white;
-	background-color: $rgba-primary-3;
-	text-align: center;
 }

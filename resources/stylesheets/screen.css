@@ -222,7 +222,14 @@ h5, h6 {
 }
 
 /* menu bar and ul items *******************************/
-/* line 84, ../sass/nav.scss */
+/* line 83, ../sass/nav.scss */
+.menu {
+  color: white;
+  background-color: #123752;
+  text-align: center;
+}
+
+/* line 89, ../sass/nav.scss */
 #menubar {
   width: 960px;
   height: 50px;
@@ -240,13 +247,13 @@ h5, h6 {
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
 }
 
-/* line 101, ../sass/nav.scss */
+/* line 106, ../sass/nav.scss */
 ul#menu {
   margin: 0;
   margin: 0 0 0 20px;
 }
 
-/* line 106, ../sass/nav.scss */
+/* line 111, ../sass/nav.scss */
 ul#menu li {
   padding: 0 0 0 0px;
   list-style: none;
@@ -255,7 +262,7 @@ ul#menu li {
   background: transparent;
 }
 
-/* line 114, ../sass/nav.scss */
+/* line 119, ../sass/nav.scss */
 ul#menu li a {
   float: left;
   font: bold 120% Arial, Helvetica, sans-serif;
@@ -268,26 +275,18 @@ ul#menu li a {
   background: transparent;
 }
 
-/* line 126, ../sass/nav.scss */
+/* line 131, ../sass/nav.scss */
 ul#menu li.current a {
   color: #FFF;
   background: #323232;
   text-shadow: none;
 }
 
-/* line 132, ../sass/nav.scss */
+/* line 137, ../sass/nav.scss */
 ul#menu li:hover a {
   color: #FFF;
   background: #323232;
   text-shadow: none;
-}
-
-/* top menu **********************************************/
-/* line 140, ../sass/nav.scss */
-.menu {
-  color: white;
-  background-color: #123752;
-  text-align: center;
 }
 
 /* line 1, ../sass/content.scss */
@@ -377,8 +376,8 @@ ul#menu li:hover a {
 /* line 75, ../sass/content.scss */
 .content-image {
   float: left;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 250px;
   margin: 0px 20px 10px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
@@ -393,7 +392,6 @@ ul#menu li:hover a {
 /* line 90, ../sass/content.scss */
 .f-image {
   text-align: left;
-  border: 1px solid white;
 }
 
 /********************new**********************/
