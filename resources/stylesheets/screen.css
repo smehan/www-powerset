@@ -317,7 +317,7 @@ ul#menu li:hover a {
   -webkit-border: 0px 0px 15px 15px;
 }
 
-/* line 25, ../sass/content.scss */
+/* line 24, ../sass/content.scss */
 .sidebar_container {
   float: left;
   margin: 10px 20px 0 0;
@@ -325,7 +325,7 @@ ul#menu li:hover a {
   padding: 0;
 }
 
-/* line 32, ../sass/content.scss */
+/* line 31, ../sass/content.scss */
 .sidebar {
   float: left;
   width: 250px;
@@ -334,13 +334,13 @@ ul#menu li:hover a {
   margin-bottom: 10px;
 }
 
-/* line 40, ../sass/content.scss */
+/* line 39, ../sass/content.scss */
 .sidebar_item {
   font: normal 100% Arial, Helvetica, sans-serif;
   width: 215px;
 }
 
-/* line 45, ../sass/content.scss */
+/* line 44, ../sass/content.scss */
 .sidebar h2 {
   padding: 5px 0 0 10px;
   font: normal 140% Arial, Helvetica, sans-serif;
@@ -359,21 +359,21 @@ ul#menu li:hover a {
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
 }
 
-/* line 63, ../sass/content.scss */
+/* line 62, ../sass/content.scss */
 .content {
   width: 680px;
   margin-bottom: 10px;
   float: left;
 }
 
-/* line 69, ../sass/content.scss */
+/* line 68, ../sass/content.scss */
 .content_item {
   width: 680px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-/* line 75, ../sass/content.scss */
+/* line 74, ../sass/content.scss */
 .content-image {
   margin: 0px 20px 10px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
@@ -381,26 +381,26 @@ ul#menu li:hover a {
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
 }
 
-/* line 85, ../sass/content.scss */
+/* line 84, ../sass/content.scss */
 #content-image-woman {
   float: left;
   width: 200px;
   height: 250px;
 }
 
-/* line 91, ../sass/content.scss */
+/* line 90, ../sass/content.scss */
 #img-woman {
   height: 250px;
 }
 
-/* line 95, ../sass/content.scss */
+/* line 94, ../sass/content.scss */
 #content-image-ridge-walk {
   float: left;
   width: 290px;
   height: 160px;
 }
 
-/* line 105, ../sass/content.scss */
+/* line 104, ../sass/content.scss */
 #content-image-wall-display {
   float: right;
   width: 200px;
@@ -408,23 +408,36 @@ ul#menu li:hover a {
   margin: 10px 20px 10px 10px;
 }
 
-/* line 112, ../sass/content.scss */
+/* line 111, ../sass/content.scss */
 #img-wall-display {
   height: 220px;
 }
 
-/* line 116, ../sass/content.scss */
+/* line 115, ../sass/content.scss */
+#content-dial-tin-can {
+  width: 200px;
+  height: 200px;
+  margin: 40px 10px 0 0;
+}
+
+/* line 121, ../sass/content.scss */
+#img-dial-tin-can {
+  width: 200px;
+  height: 200px;
+}
+
+/* line 126, ../sass/content.scss */
 .f-image {
   text-align: left;
 }
 
-/* line 124, ../sass/content.scss */
+/* line 134, ../sass/content.scss */
 .f-image-r {
   text-align: right;
 }
 
 /********************new**********************/
-/* line 135, ../sass/content.scss */
+/* line 145, ../sass/content.scss */
 .content_container {
   width: 320px;
   padding: 5px;
@@ -432,26 +445,26 @@ ul#menu li:hover a {
   float: left;
 }
 
-/* line 141, ../sass/content.scss */
+/* line 151, ../sass/content.scss */
 #content_bottom {
   width: 960px;
   height: 160px;
   text-align: center;
 }
 
-/* line 146, ../sass/content.scss */
+/* line 156, ../sass/content.scss */
 #content_bottom p {
   color: #000;
   text-shadow: 1px 1px #FFF;
 }
 
-/* line 150, ../sass/content.scss */
+/* line 160, ../sass/content.scss */
 #content_bottom h4 {
   color: #000;
   text-shadow: none;
 }
 
-/* line 154, ../sass/content.scss */
+/* line 164, ../sass/content.scss */
 .content_bottom_container_box {
   width: 295px;
   padding: 5px;
@@ -460,13 +473,97 @@ ul#menu li:hover a {
   float: left;
 }
 
-/* line 161, ../sass/content.scss */
+/* line 171, ../sass/content.scss */
 .content_bottom_container_boxl {
   width: 295px;
   padding: 5px;
   text-align: center;
   margin: 20px 0 10px 10px;
   float: left;
+}
+
+/* line 13, ../sass/forms.scss */
+.slabel {
+  border: 0px solid;
+  radius: 2px;
+  padding: 2px;
+  font: .8em, sans-serif;
+  color: white;
+  bg: white;
+  label-bg: white;
+  label-color: inherit;
+  error-color: #E82C0C;
+  placeholder-color: #B9E0D6;
+  success-color: #5C832F;
+}
+
+/* line 27, ../sass/forms.scss */
+label {
+  font: .8em, sans-serif;
+  color: white;
+}
+
+/* line 32, ../sass/forms.scss */
+input, textarea {
+  font: .9em/1.5em, sans-serif;
+  color: white;
+  background: white;
+  border: none;
+  padding: 0 10px;
+  margin: 0;
+  width: 350px;
+  background: none;
+}
+
+/* line 44, ../sass/forms.scss */
+input:focus, textarea:focus {
+  background: rgba(0, 0, 0, 0.1);
+  width: 350px;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* line 51, ../sass/forms.scss */
+input {
+  height: 2.5em;
+  /* for IE */
+  vertical-align: middle;
+  /* This is optional but it makes legacy IEs look better */
+}
+
+/* line 56, ../sass/forms.scss */
+textarea {
+  display: block;
+  padding: 10px;
+  margin: 10px 0 0 -10px;
+  width: 350px;
+  height: 200px;
+  resize: none;
+  overflow: auto;
+}
+
+/* line 66, ../sass/forms.scss */
+button {
+  padding: 5px;
+  font: bold .6em sans-serif;
+  color: white;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background: #669ec5;
+  cursor: pointer;
+}
+
+/* line 76, ../sass/forms.scss */
+button:after {
+  content: " >>>";
+}
+
+/* line 80, ../sass/forms.scss */
+button:hover,
+button:focus {
+  outline: none;
+  background: #000;
+  color: #FFF;
 }
 
 /* compass sticky-footer */

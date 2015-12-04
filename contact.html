@@ -76,6 +76,9 @@
 	<p>We will show you the benefits of Lean / Agile for knowledge work, based on years of successful experience.</p>
       </div>
       <!-- close sidebar_item -->
+      <div class="sidebar_item" id="content-dial-tin-can">
+	  <img src="resources/images/dial-tin-can.jpg" alt="contact us" id="img-dial-tin-can">	
+      </div>
     </div>
     <!-- close sidebar -->
   </div>
@@ -106,14 +109,28 @@
      <!-- close content_item -->
     
 
-     <div>
+     <div class="content_item">
 	<form enctype="text/plain" method="get" action="mailto:info@powersettech.com">
-First Name: <input type="text" name="first_name"><br>
-Last Name: <input type="text" name="last_name"><br>
-Email Address: <input type="text" name="email_address"><br>
-Comments: <textarea rows="5" cols="30" name="comments"></textarea>
-<input type="submit" value="Send">
-</div>
+	<div class="slabel" id="contact-first-name">
+	    <label for="first-name">First Name:</label>
+	    <input type="text" id="first-name" name="first-name" placeholder="Jane"><br>
+	</div>
+	<div class="slabel" id="contact-last-name">
+    	    <label for="last-name">Last Name:</label>
+    	    <input type="text" id="last-name" name="last-name" placeholder="Smith"><br>
+	</div>
+	<div class="slabel" id="contact-message">
+	   <label for="msg">Your message:</label>
+	   <textarea  id="msg" name="message" placeholder="Input your message here..."></textarea>
+	</div>
+	<div class="button">
+	   <button type="submit">Send your message</button>
+	</div>
+	</form>
+     </div>
+     <!-- close content_item send message -->
+
+
    </div>
    <!-- close content -->
 
