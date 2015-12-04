@@ -362,15 +362,15 @@ ul#menu li:hover a {
 /* line 63, ../sass/content.scss */
 .content {
   width: 680px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   float: left;
 }
 
 /* line 69, ../sass/content.scss */
 .content_item {
   width: 680px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* line 75, ../sass/content.scss */
@@ -404,21 +404,27 @@ ul#menu li:hover a {
 #content-image-wall-display {
   float: right;
   width: 200px;
-  height: 200px;
+  height: 220px;
+  margin: 10px 20px 10px 10px;
 }
 
-/* line 111, ../sass/content.scss */
+/* line 112, ../sass/content.scss */
 #img-wall-display {
-  height: 200px;
+  height: 220px;
 }
 
-/* line 115, ../sass/content.scss */
+/* line 116, ../sass/content.scss */
 .f-image {
   text-align: left;
 }
 
+/* line 124, ../sass/content.scss */
+.f-image-r {
+  text-align: right;
+}
+
 /********************new**********************/
-/* line 126, ../sass/content.scss */
+/* line 135, ../sass/content.scss */
 .content_container {
   width: 320px;
   padding: 5px;
@@ -426,26 +432,26 @@ ul#menu li:hover a {
   float: left;
 }
 
-/* line 132, ../sass/content.scss */
+/* line 141, ../sass/content.scss */
 #content_bottom {
   width: 960px;
   height: 160px;
   text-align: center;
 }
 
-/* line 137, ../sass/content.scss */
+/* line 146, ../sass/content.scss */
 #content_bottom p {
   color: #000;
   text-shadow: 1px 1px #FFF;
 }
 
-/* line 141, ../sass/content.scss */
+/* line 150, ../sass/content.scss */
 #content_bottom h4 {
   color: #000;
   text-shadow: none;
 }
 
-/* line 145, ../sass/content.scss */
+/* line 154, ../sass/content.scss */
 .content_bottom_container_box {
   width: 295px;
   padding: 5px;
@@ -454,7 +460,7 @@ ul#menu li:hover a {
   float: left;
 }
 
-/* line 152, ../sass/content.scss */
+/* line 161, ../sass/content.scss */
 .content_bottom_container_boxl {
   width: 295px;
   padding: 5px;

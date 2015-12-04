@@ -62,14 +62,14 @@
 
 .content {
   	width: 680px;
-  	margin-bottom: 20px;
+  	margin-bottom: 10px;
   	float: left;
   }
 
 .content_item { 
 	width: 680px;
-  	margin-top: 20px;
-  	margin-bottom: 20px;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
 }
 
 .content-image { 
@@ -105,11 +105,12 @@
 #content-image-wall-display {
 	float: right; 
 	width: 200px;
-  	height: 200px;
+  	height: 220px;
+  	margin: 10px 20px 10px 10px;
 }
 
 #img-wall-display {
-  	height: 200px;
+  	height: 220px;
 }
 
 .f-image {
@@ -117,6 +118,14 @@
    	// top: 190px; 
    	// right: 10px; /* NOT left: 190px; */ 
    	text-align:left;
+   	//border: 1px solid white;
+  }
+
+  .f-image-r {
+  	//position: relative;
+   	// top: 190px; 
+   	// right: 10px; /* NOT left: 190px; */ 
+   	text-align:right;
    	//border: 1px solid white;
   }
 
