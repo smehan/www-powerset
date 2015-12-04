@@ -73,19 +73,44 @@
 }
 
 .content-image { 
-	float: left; 
-  	width: 200px;
-  	height: 250px;
+	// float: left; 
+ //  	width: 150px;
+ //  	height: 150px;
   	margin: 0px 20px 10px 0;
   	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
   	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
   	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
   }
 
-  #img-woman {
+#content-image-woman {
+	float: left; 
+	width: 200px;
+  	height: 250px;
+}
+
+ #img-woman {
   	height: 250px;
   }
 
+#content-image-ridge-walk {
+	float: left; 
+	width: 290px;
+  	height: 160px;
+}
+
+#img-ridge-walk {
+  	
+ }
+
+#content-image-wall-display {
+	float: right; 
+	width: 200px;
+  	height: 200px;
+}
+
+#img-wall-display {
+  	height: 200px;
+}
 
 .f-image {
   	//position: relative;
