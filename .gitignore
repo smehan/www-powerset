@@ -1,0 +1,12 @@
+# SASS
+/.sass-cache
+/resources/.sass-cache
+
+# OS X
+/.DS_Store
+
+
+# IDEA
+/.idea
+
+
